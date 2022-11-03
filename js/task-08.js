@@ -19,5 +19,8 @@ function onFormSubmit(event) {
     password,
   };
   console.log(formData);
+
+  formRef.reset();
+
   return formData;
 }
